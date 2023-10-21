@@ -2,7 +2,7 @@
     "maxSpeed": 14.5,
     "optimalVoltage": 12,
     "imu": {
-      "type": "pigeon",
+      "type": "pigeon2",
       "id": 14,
       "canbus": "canivore"
     },
