@@ -4,13 +4,13 @@ import frc.robot.subsystems.Swerve_Subsystem;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
 /** An example command that uses an example subsystem. */
-public class ExampleCommand extends CommandBase {
-  private final Swerve_Subsystem m_subsystem;
+public class Drive_Swerve extends CommandBase {
+  private final Swerve_Subsystem SwerveSubsystem;
 
-  public ExampleCommand(Swerve_Subsystem subsystem) {
-    m_subsystem = subsystem;
+  public Drive_Swerve(Swerve_Subsystem SwerveSubsystem) {
+    this.SwerveSubsystem = SwerveSubsystem;
 
-    addRequirements(subsystem);
+    addRequirements(SwerveSubsystem);
   }
 
   @Override
